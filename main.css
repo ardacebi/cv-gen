@@ -1,0 +1,40 @@
+html {
+    background-color: white;
+}
+
+.card {
+    width: 40%;
+    height: 600px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 39px -13px grey;
+    -moz-box-shadow: 0px 0px 39px -13px grey;
+    box-shadow: 0px 0px 39px -13px grey;
+    position: absolute;
+    border-radius:10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.cardtitle {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.descrip {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.cardcontent {
+    margin-left: 20px;
+    margin-right: 20px;
+}
