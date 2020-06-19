@@ -34,26 +34,52 @@ html {
     font-weight: 400;
 }
 
+.creditsdescrip {
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
 .cardcontent {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.bottomarea {}
+.bottomarea {
+}
 
 .authorcredit {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
     color: grey;
     font-size: 15px;
+    bottom: 40px;
+    left: 30px;
+}
+
+.credits {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    text-decoration: underline;
+    font-size: 15px;
     bottom: 30px;
     left: 30px;
+    cursor: pointer;
+}
+
+.bannerarea {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    align-items: center;
 }
 
 .bannerimage {
     margin-top: 10px;
     margin-bottom: -20px;
-    width: 100%;
+    width: 150px;
 }
 
 .authorgit {
@@ -85,7 +111,8 @@ html {
     user-select: none;
     font-family: 'Open Sans', sans-serif;
     right: 30px;
-    bottom: 30px;
+    bottom: 35px;
+    text-decoration: none;
 }
 
 .nextbutton:hover {
