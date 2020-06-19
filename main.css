@@ -46,15 +46,14 @@ html {
     margin-right: 30px;
 }
 
-.bottomarea {
-}
+.bottomarea {}
 
 .authorcredit {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
     color: grey;
     font-size: 15px;
-    bottom: 30px;
+    bottom: 40px;
 }
 
 .credits {
@@ -63,7 +62,7 @@ html {
     color: grey;
     text-decoration: underline;
     font-size: 15px;
-    bottom: 30px;
+    bottom: 40px;
     cursor: pointer;
 }
 
@@ -78,6 +77,14 @@ html {
     margin-top: 10px;
     margin-bottom: -20px;
     width: 250px;
+}
+
+.versionindic {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 15px;
+    bottom: 15px;
 }
 
 .authorgit {
@@ -113,6 +120,69 @@ html {
     text-decoration: none;
 }
 
+.previousbutton {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #24292e;
+    cursor: pointer;
+    background-color: #fafbfc;
+    border: 1px solid;
+    border-color: rgba(27, 31, 35, .15);
+    box-shadow: 0 1px 0 rgba(27, 31, 35, .04), inset 0 1px 0 hsla(0, 0%, 100%, .25);
+    transition: background-color .2s cubic-bezier(.3, 0, .5, 1);
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+    right: 120px;
+    bottom: 35px;
+    text-decoration: none;
+}
+
 .nextbutton:hover {
     background-color: #f3f4f6;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.tab {
+    display: none;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.step.finish {
+    background-color: #4CAF50;
 }

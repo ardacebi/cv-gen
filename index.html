@@ -13,25 +13,71 @@
 <body>
 
     <div class="card">
-        <div class="cardcontent">
-            <div class="bannerarea">
-                <img class="bannerimage" src="assets/banner-landing-light.png"></img>
+        <form id="regForm" action="">
+            <div class="cardcontent">
+
+                <div class="tab">
+                    <div class="bannerarea">
+                        <img class="bannerimage" src="assets/banner-landing-light.png"></img>
+                    </div>
+                    <h1 class="cardtitle">Vitae</h1>
+                    <p class="descrip">Welcome to Vitae. You can generate your own beautifully looking CV by just
+                        answering a set of quick questions guided by the Vitae wizard.</p>
+                    <p class="descrip">The goal of this project is to solve the problem of complicated CV generation
+                        software
+                        and templates served by popular programs and let everyone create their own curriculum vitae free
+                        of
+                        charge.
+                    </p>
+                </div>
+                <div class="tab">
+                    <div class="bannerarea">
+                        <img class="bannerimage" src="assets/banner-landing-light.png"></img>
+                    </div>
+                    <h1 class="cardtitle">Vitae</h1>
+                    <p class="descrip">Welcome to Vitae. You can generate your own beautifully looking CV by just
+                        answering a set of quick questions guided by the Vitae wizard.</p>
+                    <p class="descrip">The goal of this project is to solve the problem of complicated CV generation
+                        software
+                        and templates served by popular programs and let everyone create their own curriculum vitae free
+                        of
+                        charge.
+                    </p>
+                </div>
+                <div class="tab">
+                    <div class="bannerarea">
+                        <img class="bannerimage" src="assets/banner-landing-light.png"></img>
+                    </div>
+                    <h1 class="cardtitle">Vitae</h1>
+                    <p class="descrip">Welcome to Vitae. You can generate your own beautifully looking CV by just
+                        answering a set of quick questions guided by the Vitae wizard.</p>
+                    <p class="descrip">The goal of this project is to solve the problem of complicated CV generation
+                        software
+                        and templates served by popular programs and let everyone create their own curriculum vitae free
+                        of
+                        charge.
+                    </p>
+                </div>
+
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
+                </div>
+
             </div>
-            <h1 class="cardtitle">Vitae</h1>
-            <p class="descrip">Welcome to Vitae. You can generate your own beautifully looking CV by just
-                answering a set of quick questions guided by the Vitae wizard.</p>
-            <p class="descrip">The goal of this project is to solve the problem of complicated CV generation software
-                and templates served by popular programs and let everyone create their own curriculum vitae free of
-                charge.
-            </p>
             <div class="bottomarea">
                 <p class="authorcredit"><a href="https://github.com/ardacebi/cv-gen">Source</a> | <a class="authorgit"
-                        href="https://github.com/ardacebi/cv-gen/graphs/contributors">Authors</a> | <a
-                        href="credits">Credits</a></p>
+                        href="https://github.com/ardacebi/cv-gen/graphs/contributors">Authors</a>
+                    | <a href="credits">Credits</a></p>
+                <p class="versionindic">v1.0</p>
 
-                <a class="nextbutton">Next</a>
+                <button class="previousbutton" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                <button class="nextbutton" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
             </div>
-        </div>
+        </form>
     </div>
 
 </body>
